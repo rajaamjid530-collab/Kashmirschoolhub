@@ -1,19 +1,14 @@
 export default function Home() {
   return (
-    <main style={{ 
+    <div style={{ 
       display: 'flex', 
-      flexDirection: 'column', 
-      alignItems: 'center', 
       justifyContent: 'center', 
-      minHeight: '100vh',
-      fontFamily: 'sans-serif' 
+      alignItems: 'center', 
+      height: '100vh',
+      fontSize: '24px',
+      fontFamily: 'Arial'
     }}>
-      <h1 style={{ color: '#2563eb', fontSize: '2.5rem' }}>
-        Kashmir School Hub
-      </h1>
-      <p style={{ color: '#4b5563', fontSize: '1.2rem' }}>
-        آپ کا اسکول مینجمنٹ سسٹم تیار ہو رہا ہے
-      </p>
-    </main>
-  );
+      Welcome to Kashmir School Hub
+    </div>
+  )
 }
